@@ -11,5 +11,15 @@
 
     <artifactId>sparkml</artifactId>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_2.12</artifactId>
+            <version>2.4.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+    </dependencies>
 
 </project>
